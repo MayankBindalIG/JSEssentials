@@ -1,0 +1,279 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* search result css */
+.search-result {
+    width: 650px;
+    margin: 100px;
+}
+.search-result img {
+    width: 650px;
+    height: 350px;
+    border-radius: 10px 10px 0px 0px;
+}
+.search-result h2 {
+    margin: 20px;
+}
+.search-result p {
+    margin: 20px;
+    color: rgb(158, 147, 147) ;
+    font-size: 18px;
+    font-weight: normal;
+}
+.search-result button {
+    margin: 10px 20px;
+    background-color: #007054;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    font-size: medium;
+}
+.search-result-element {
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+/* search result css */
+
+/* Navbar css */
+.navbar {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+}
+.nav-input {
+    padding: 5px 5px 5px 15px;
+    border-radius: 20px ;
+    border: 1px solid black;
+    width: 300px;
+    height: 30px;
+    margin: 5px ;
+}
+.navbar-about-us {
+    margin-left: 472px;
+}
+.navbar a {
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    font-weight: bold;
+}
+#app-name {
+    font-style: italic;
+    margin: 20px;
+}
+.nav-button {
+    padding: 5px 10px;
+    margin: 20px 0px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    background-color: white;
+    font-weight: bold;
+    color: #0094ce;
+    height: 40px;
+}
+#nav-icon {
+    font-size: 50px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav-button:hover {
+    color: white;
+    background-color: #0094ce;
+}
+.navbar ::placeholder {
+    color: #0094ce;
+    font-weight: bold;
+}
+.nav-right-section i {
+    position: static;
+}
+.nav-right-section {
+    margin-right: 20px;
+}
+/* Navbar css */
+
+/* About Us page css */
+.about-us {
+    width: 85%;
+    color: red;
+    font-weight: bolder;
+    padding: 20px;
+    display: block;
+    margin: 10px 100px;
+}
+#about-us-desc {
+    width: 85%;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: rgba(41, 47, 46, 0.3);
+    padding: 20px;
+}
+/* About Us page css */
+
+.main-page {
+    min-height: 100vh;
+    min-width: 98vw;
+    background-image: url('assets/backgroundImg3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.page-intro {
+    width: 600px;
+    color: red;
+    font-weight: bolder;
+    padding: 20px;
+    display: block;
+    margin: 70px 150px;
+}
+#book-now-btn {
+    background-color: #0094ce;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 10px 30px;
+    border: none;
+    font-size: x-large;
+}
+#book-now-btn:hover {
+    color: #0094ce;
+    background-color: white;
+}
+#intro-title {
+    font-weight: bolder;
+    font-size: 80px;
+}
+#intro-desc {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.social-media-main {
+    display: block;
+    margin-left: 15px;
+}
+.vertical-line {
+    border-left: 2px solid white;
+    height: 300px;
+    margin: 25px;
+}
+.social-media-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 45px;
+    margin-top: 100px;
+    color: white;
+}
+.social-media-btn {
+    margin: 10px 
+}
+
+
+/* contact us page css */
+.contact-us {
+    color: red;
+    font-weight: bolder;
+    padding: 20px;
+    display: block;
+    margin: 200px 100px;
+}
+.contact-us p {
+    font-size: 24px;
+    font-weight: normal;
+}
+.contact-form {
+    width: 700px;
+    height: 500px;
+    background-color: rgba(41, 47, 46, 0.3);
+    margin: 200px 50px;
+    padding: 20px;
+    color: black;
+    border-radius: 5px;
+}
+.contact-form-input {
+    width: 700px;
+    height: 30px;
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    margin-left: 10px;
+    color: rgb(223, 20, 20); /* Change to your desired color */
+    opacity: 1; /* Ensure full opacity for modern browsers */
+  }
+
+#submit-btn {
+    width: 700px;
+    background-color: #0094ce;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 30px;
+    border: none;
+    font-size: x-large;
+    margin: 10px 10px 0px 0px;
+}
+#submit-btn:hover {
+    color: #0094ce;
+    background-color: white;
+}
+#contact-msg {
+    height: 200px;
+}
+/* contact us page css */
+
+/* Teams page css */
+.team-details{
+    color: red;
+    font-weight: bolder;
+    padding: 20px;
+    display: flex;
+    margin: 10px 100px;
+}
+.team-details-desc {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 100px;
+}
+#team-title {
+    font-weight: bolder;
+    font-size: 60px;
+}
+.team-card{
+    background-color: rgba(41, 47, 46, 0.3);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.team-card i {
+    font-size: 40px;
+}
+.team-card p {
+    font-size: 20px;
+    font-weight: normal;
+}
+.team-card button {
+    border-radius: 8px;
+    padding: 10px 60px;
+    color: white;
+    background-color: #0094ce;
+    border: 0.5px solid white;
+    margin-left: 30px;
+}
+/* Teams page css */
