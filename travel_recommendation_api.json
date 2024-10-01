@@ -53,7 +53,7 @@
 {
 "id": 1,
 "name": "Angkor Wat, Cambodia",
-"imageUrl": "assets/TajMahal.jpg",
+"imageUrl": "assets/New_Delhi_Temple.jpg",
 "description": "A UNESCO World Heritage site and the largest religious monument in the world."
 },
 {
@@ -73,7 +73,7 @@
 {
 "id": 2,
 "name": "Copacabana Beach, Brazil",
-"imageUrl": "assets/beachImg1.jpg",
+"imageUrl": "assets/beach2.jpg",
 "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
 }
 ]
