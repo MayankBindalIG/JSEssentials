@@ -8,12 +8,12 @@ body, html {
 
 /* search result css */
 .search-result {
-    width: 650px;
-    margin: 100px;
+    width: 300px;
+    margin: 50px;
 }
 .search-result img {
-    width: 650px;
-    height: 350px;
+    width: 300px;
+    height: 200px;
     border-radius: 10px 10px 0px 0px;
 }
 .search-result h2 {
